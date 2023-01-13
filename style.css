@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+table {
+    width: 600px;
+}
+td, th {
+    padding: 15px;
+}
+th {
+    background: rgb(211, 204, 110);
+}
+#col_header {
+    background: rgb(149, 222, 143);
+}
+#str_header {
+    background: rgb(149, 222, 143);
+}
