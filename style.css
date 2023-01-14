@@ -4,9 +4,7 @@
 table {
     width: 600px;
 }
-td, th {
-    padding: 15px;
-}
+
 th {
     background: rgb(211, 204, 110);
 }
