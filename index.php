@@ -6,7 +6,7 @@
     <title>Знакомство с PHP</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
-<body>     
+<body>   
     <table border="1">
         <caption> <h3> Таблица 1 </h3></caption>
         <tr>
@@ -20,34 +20,34 @@
         <tr>          
           <td> <?php $a=0; echo $a ?> </td>
           <td> <?php $b=0; echo $b ?> </td>
-          <td> <?php $c = 1; $c = !$a; echo (int)$c ?> </td>
-          <td> <?php $c = 1; echo ($c == ($a || $b)) ? "true" : "false";?> </td>
-          <td> <?php $c = 1; echo ($c == ($a && $b)) ? "true" : "false";?> </td>
-          <td> <?php $c = 1; echo ($c == ($a xor $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; $c = !$a; echo (int)$c ?> </td>
+          <td> <?php $c = true; echo ($c == ($a || $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; echo ($c == ($a && $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; echo ($c == ($a xor $b)) ? "true" : "false";?> </td>
         </tr>
         <tr>
           <td> <?php $a=0; echo $a ?> </td>
           <td> <?php $b=1; echo $b ?> </td>
-          <td> <?php $c = 0 || 1; $c = !$a; echo (int)$c ?> </td>
-          <td> <?php $c = 1; echo ($c == ($a || $b)) ? "true" : "false";?> </td>
-          <td> <?php $c = 1; echo ($c == ($a && $b)) ? "true" : "false";?> </td>
-          <td> <?php $c = 1; echo ($c == ($a xor $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; $c = !$a; echo (int)$c ?> </td>
+          <td> <?php $c = true; echo ($c == ($a || $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; echo ($c == ($a && $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; echo ($c == ($a xor $b)) ? "true" : "false";?> </td>
         </tr>
         <tr>
           <td> <?php $a=1; echo $a ?> </td>
           <td> <?php $b=0; echo $b ?> </td>
-          <td> <?php $c = 0 || 1; $c = !$a; echo (int)$c ?> </td>
-          <td> <?php $c = 1; echo ($c == ($a || $b)) ? "true" : "false";?> </td>
-          <td> <?php $c = 1; echo ($c == ($a && $b)) ? "true" : "false";?> </td>
-          <td> <?php $c = 1; echo ($c == ($a xor $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; $c = !$a; echo (int)$c ?> </td>
+          <td> <?php $c = true; echo ($c == ($a || $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; echo ($c == ($a && $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; echo ($c == ($a xor $b)) ? "true" : "false";?> </td>
         </tr>
         <tr>
           <td> <?php $a=1; echo $a ?> </td>
           <td> <?php $b=1; echo $b ?> </td>
-          <td> <?php $c = 0 || 1; $c = !$a; echo (int)$c ?> </td>
-          <td> <?php $c = 1; echo ($c == ($a || $b)) ? "true" : "false";?> </td>
-          <td> <?php $c = 1; echo ($c == ($a && $b)) ? "true" : "false";?> </td>
-          <td> <?php $c = 1; echo ($c == ($a xor $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; $c = !$a; echo (int)$c ?> </td>
+          <td> <?php $c = true; echo ($c == ($a || $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; echo ($c == ($a && $b)) ? "true" : "false";?> </td>
+          <td> <?php $c = true; echo ($c == ($a xor $b)) ? "true" : "false";?> </td>
         </tr>
 
         <p></p>
